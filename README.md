@@ -1,3 +1,22 @@
+---
+
+### Instalação
+    yarn install
+
+### Configurar o banco de dados em 
+    src/config/sequelize/config/database.js
+
+### Executar as migrações
+    node node_modules/.bin/sequelize db:migrate
+
+### Executar todos os seeds
+    node_modules/.bin/sequelize db:seed:all
+
+### iniciar a aplicação
+    yarn start
+
+---
+
 # Wirecard Backend Challenge
 
 At Wirecard we cherish our startup culture and our engineers are active participants in the innovation process. On this challenge, we’ll be looking at how you organize your code, your knowledge of design patterns, data persistence, unit testing, TDD, etc.
